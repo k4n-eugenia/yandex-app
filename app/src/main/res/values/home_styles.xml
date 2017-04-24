@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Home" />
+
+    <style name="AppTheme.Home.Container">
+        <item name="android:background">@color/home_background_color</item>
+        <item name="android:padding">@dimen/home_container_padding</item>
+    </style>
+
+    <!-- Стили блока со сменой языка -->
+
+    <style name="AppTheme.Home.Switcher">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AppTheme.Home.SwitcherLanguage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.Home.SwitcherLanguage.Left">
+        <item name="android:gravity">right|center_vertical</item>
+    </style>
+
+    <style name="AppTheme.Home.SwitcherLanguage.Right">
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="AppTheme.Home.SwitcherSwap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+</resources>

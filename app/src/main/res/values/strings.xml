@@ -1,0 +1,25 @@
+<resources>
+    <!-- Основной экран -->
+    <string name="app_name">Я.Переводчик</string>
+
+    <string name="ui_language">ru</string>
+    <string name="default_language_dir">en-ru</string>
+
+    <string name="title_home">Переводчик</string>
+    <string name="title_favourites">Избранное</string>
+    <string name="title_history">История</string>
+
+    <!-- Экран переводчика -->
+    <string name="title_language_en">English</string>
+    <string name="title_language_ru">Русский</string>
+    <string name="title_translate_direction">Направление перевода</string>
+    <string name="title_text_to_translate">Текст для перевода</string>
+    <string name="home_select_language_title">Выберите язык</string>
+    <string name="favourites_add_to_favourites">Добавить в избранное</string>
+    <string name="favourites_select_action">Выберите действие</string>
+    <string name="favourites_open">Открыть</string>
+    <string name="favourites_remove_from_favourites">Удалить из избранного</string>
+    <string name="favourites_not_supported">Пока не поддерживается</string>
+    <string name="favourites_delete">Удалить</string>
+
+</resources>
